@@ -7,7 +7,12 @@ import info.monitorenter.cpdetector.io.ParsingDetector;
 import info.monitorenter.cpdetector.io.UnicodeDetector;
 
 import java.io.File;
-
+/**
+ * 根据文件绝对路径判断文件的编码
+ * @author xwd
+ *
+ * @time 2016年12月16日 下午5:31:35
+ */
 public class GetFileEncodingByPath implements GetFileEncodingByPathI {
 
 	@Override
